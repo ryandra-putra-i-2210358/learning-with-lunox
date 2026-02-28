@@ -1,0 +1,29 @@
+*{
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    background-color: blue;
+    width: 1400px;
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+.container .card{
+    border-radius: 8px;
+    background-color: aliceblue;
+    
+}
+.card h6 {
+    font-size: 18px;
+    padding: 10px;
+}
+

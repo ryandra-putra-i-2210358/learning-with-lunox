@@ -1,0 +1,36 @@
+.warna-baris{
+    background-color: silver;
+}
+
+.biru{
+    background-color: violet;
+}
+.kuning{
+    background-color: yellow;
+}
+
+.table1{
+    margin: 100px;
+    box-shadow: 4pzx 4px 4px 4px rgba(0, 0, 0, 0.4);
+    animation: animasiGerak 3s ease alternate 1 forwards running;
+}
+.table2 {
+    margin: 100px;
+    box-shadow: 4pzx 4px 4px 4px rgba(0, 0, 0, 0.4);
+    animation: animasiGerak 3s ease alternate 1 forwards running;
+}
+
+@keyframes animasiGerak {
+    0%{
+        margin-left: 50px;
+        transform: rotate(-180deg) scale(0);
+        
+    }
+    75%{
+        margin-top: 10px;
+    }
+    100%{
+        margin-right: 50px;
+        transform: rotate(0deg) scale(1.02);
+    }
+}

@@ -1,0 +1,36 @@
+.batas{
+  
+    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    background-image: radial-gradient(circle farthest-corner at left, yellow, violet);
+    box-shadow: 0px 30px 10px -10px rgba(0, 0, 0, 0.9);
+    transition: 3s;
+    position: relative;
+    animation: animationGassken 3s ease-in alternate infinite forwards ;
+}
+.batas:hover{
+    transform: scale(1.02);
+    margin-top: 20px;
+    box-shadow: 0px 80px 10px -50px rgba(0, 0, 0, 0.3);
+}
+
+
+
+@keyframes animationGassken{
+    0%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-right: 20px;
+    }
+    100% {
+        transform: skew(45deg);
+        background-image: linear-gradient(to left, violet, yellow);
+    }
+}

@@ -1,0 +1,90 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+}
+
+.container{
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+}
+.container .text-utama{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+.bungkus-top{
+    padding-top: 20px;
+}
+.bungkus-top .bungkus{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+   
+}
+.bungkus{
+    font-weight: bold;
+    color:blueviolet;
+    text-align: justify;
+    display: flow-root;
+}
+.kiri{
+    float: left;
+    /* border: 2px solid black; */
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+    padding: 10px 15px;
+}
+.kanan img{
+    width: 300px;
+    height: 300px;
+}
+.kanan {
+    float: right;
+    height: auto;
+    width: 500px;
+    /* border: 2px solid black; */
+    /* width: 500px; */
+    margin-right: 100px;
+    padding: 10px 15px;
+}
+
+.bungkus-top-flex{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: rgb(198, 198, 41);
+}
+.text-kedua{
+   
+    text-align: center;
+    height: auto;
+}
+.bungkus2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.kiri-2{
+    width: 500px;
+    height: auto;
+    order: 1;
+    padding: 20px;
+}
+.kanan-2 img{
+    width: 300px;
+    height: 300px;
+}
+.kanan-2{
+    width: 300px;
+    height: auto;
+    order: 0;
+    padding: 20px;
+}
+
+

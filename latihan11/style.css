@@ -1,0 +1,22 @@
+*{
+    border: 1px solid black;
+}
+
+
+div{
+    background-color: blue;
+    width: 300px;
+    display: flex;
+    /* height: 500px; */
+    margin: 10px auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+.container h6 {
+    /* margin-top: 10px; */
+    color: white;
+    
+  
+
+}

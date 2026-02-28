@@ -1,0 +1,38 @@
+.kotak{
+    background-color: violet;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.clear{
+    clear: both;
+}
+
+.satu{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+}
+
+.dua {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+    
+}
+ul {
+    background-color: black;
+    color: white;
+}

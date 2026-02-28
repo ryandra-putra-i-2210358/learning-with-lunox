@@ -1,0 +1,6 @@
+.pembungkus{
+    /* background-color: violet; */
+    border: 2px solid orchid;
+    background-image: linear-gradient(to left, yellow 70% , violet 30%);
+    opacity: 0.8;
+}
