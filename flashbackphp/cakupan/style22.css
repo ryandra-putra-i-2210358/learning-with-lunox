@@ -1,0 +1,125 @@
+*{
+
+     margin: 0;
+     padding: 0;
+}
+
+.container{
+    border: 2px solid red;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: justify;
+    padding: 5px;
+}
+.container .dua p{
+    color:  yellow;
+}
+.container .satu p{
+    color: blueviolet;
+}
+.container .dua h1{
+    text-align: center;
+    color: yellow;
+}
+.container .satu h1{
+    text-align: center;
+    color: blueviolet;
+}
+.container .dua{
+    float: left;
+    width: 700px;
+    height: 500px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.container .satu{
+    float: right;
+    width: 500px;
+    background-color: yellow;
+    height: 500px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container2 {
+    margin: 30px auto;
+    border: 3px solid black;
+    width: 600px;
+    padding: 2px;
+    display: flex;
+    height: 400px;
+    /* NGATUR PARENT FLEX */
+    
+    /* ngatur horizontal /vertical */
+    /* flex-direction: row; */
+    
+    /* ngatur konten klau gak cukup container pindah ke bawah */
+    /* flex-wrap: wrap; */
+
+    /* ngatur jarak item dengan penyesuaian rapih */
+    /* justify-content: center; */
+
+    /* mengatur letak content atas dan bawah atau tengah */
+    /* align-items: center; */
+
+    /* mengatur kalau ada items yang menumpuk 2 baris bisa atas dan bawah atau tengah */
+    /* align-content: space-between; */
+
+
+    box-sizing: border-box;
+
+}
+
+
+.container2 div{
+    /* NGATUR CHILD FLEX */
+    width: 100px;
+    background-color: blueviolet;
+    height: 100px;
+    gap: 3px;
+    margin: 2px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    /* flex: 1; */
+}
+
+/* order : menentukan tempat letak items */
+/* flex-grow /flex : membuat salah satu items bentuk ukuranya beda dengan item lain*/
+.satu2{
+    order: 3;
+    flex: 3;
+    align-self: flex-end;
+}
+.dua2{
+    order: 4;
+    align-self: flex-start;
+}
+.tiga2{
+    order: 2;
+    align-self: center;
+}
+.empat2{
+    order: 1;
+    align-self: auto;
+}
