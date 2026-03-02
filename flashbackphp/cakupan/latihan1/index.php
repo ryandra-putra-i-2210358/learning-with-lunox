@@ -75,7 +75,7 @@
 
     <footer>Copy Rigt Blabla bala 2026</footer>
 
-    <script src="../../cakupan/latihan1/script.js"></script>
+    <script src="../../cakupan/latihan1/scripts.js"></script>
     
 </body>
 </html>
