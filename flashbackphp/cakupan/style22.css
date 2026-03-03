@@ -79,10 +79,10 @@ tr:nth-child(even) {
     /* ngatur jarak item dengan penyesuaian rapih */
     /* justify-content: center; */
 
-    /* mengatur letak content atas dan bawah atau tengah */
+    /* mengatur letak content atas dan bawah atau tengah harus ada nilai hight */
     /* align-items: center; */
 
-    /* mengatur kalau ada items yang menumpuk 2 baris bisa atas dan bawah atau tengah */
+    /* mengatur kalau ada items yang menumpuk 2 baris bisa atas dan bawah atau tengah  harus ada nilai hight*/
     /* align-content: space-between; */
 
 

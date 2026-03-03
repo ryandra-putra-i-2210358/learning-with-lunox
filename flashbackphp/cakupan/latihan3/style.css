@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+/* NAvbar */
+
+
+nav{
+    display: flex;
+    background-color: plum;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: 50px;
+    align-items: center;
+    color: hotpink;
+}
+nav .logo {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: hotpink;
+    font-size: 0.8em;
+}
+nav ul li a:hover{
+    color: rgb(244, 148, 196);
+}
