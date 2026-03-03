@@ -38,6 +38,6 @@
     </nav>
 
 
-    <script src="../../cakupan/latihan3/script.js"></script>
+    <script src="../../cakupan/latihan3/scripts.js"></script>
 </body>
 </html>
