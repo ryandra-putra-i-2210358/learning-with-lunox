@@ -19,7 +19,7 @@
 <body>
     <nav>
         <div class="logo">
-            <h4>Ryandra Lunox</h4>
+            <h4>Ryandra Love Lunox</h4>
         </div>
         <ul>
             <li><a href="#">Home</a></li>
