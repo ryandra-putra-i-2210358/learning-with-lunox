@@ -6,4 +6,5 @@
     echo $haii;
     // ?dss
     // dsdos
+    // haii
 ?>
