@@ -11,4 +11,8 @@
     function bzb (){
 
     }
+
+    for($i = 0; $i <= 3; $i++){
+        echo "bz";
+    }
 ?>
