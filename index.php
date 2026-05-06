@@ -7,4 +7,8 @@
     // ?dss
     // dsdos
     // haii
+
+    function bzb (){
+
+    }
 ?>
