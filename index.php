@@ -2,7 +2,8 @@
 
 
     $haii = "dsds";
+    //msdmsl
     echo $haii;
     // ?dss
-
+    // dsdos
 ?>
