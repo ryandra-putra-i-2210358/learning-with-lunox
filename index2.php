@@ -7,7 +7,7 @@
 
     //ARRAY ASSOSIATIVE
     // definisinya sama dengan  seperti array numerik , kecuali
-    // key nya adalah string yang kita buat sendiri
+    // key nya adalah string yang kita buat sendir
 
     $mahasiswass = [
 
